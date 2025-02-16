@@ -1,0 +1,72 @@
+@startuml "Future 2.0"
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+AddElementTag("microService", $shape=EightSidedShape(), $bgColor="CornflowerBlue", $fontColor="white", $legendText="micro service\neight sided")
+AddElementTag("storage", $shape=RoundedBoxShape(), $bgColor="lightSkyBlue", $fontColor="white")
+
+title Container Diagram for Future 2.0 Data Workflow
+
+System_Ext(s3, "S3")
+
+System_Boundary(integrationBus, "Integration Bus") {
+    Container(camel, "Integration Bus", "Apache Camel")
+}
+
+System_Boundary(iam, "IAM") {
+    Container(keycloak, "Identity Service", "Keycloak")
+}
+
+note right of "iam"
+    Keycloak provides authentication and role management. Authorization has been already implemented in Dremio using RBAC approach
+end note
+
+System_Boundary(dataLakehouse, "Data Lakehouse") {
+    Container(dremio, "Data Lakehouse Query Engine", "Dremio", "Self-service data lakehouse query engine")
+    Container(nessie, "Data Lakehouse Metadata Catalog", "Nessie", "A transactional catalog for Apache Iceberg. Ensures consistency across multiple query engines")
+    Container(etl, "ETL", "Apache Airflow", "", $tags="microService")
+    ContainerDb(olap, "OLAP DWH", "ClickHouse", "Stores specific prebuild OLAP projections", $tags="storage")
+}
+Rel(dremio, nessie, "Performs requests")
+Rel(nessie, s3, "Performs requests")
+Rel(dremio, s3, "Performs requests")
+Rel(camel, dremio, "Loads data")
+Rel(etl, dremio, "Earns data")
+Rel_U(etl, olap, "Loads data")
+
+System_Boundary(dataCatalogSystem, "Data Catalog System") {
+    Container(dataCatalog, "Data Catalog", "DataHub", "Data discovery, explainability and traceability")
+}
+Rel_R(dataCatalog, dremio, "Requests metadata")
+
+System_Boundary(biSystem, "BI System") {
+    Container(biService, "BI", "Power BI")
+}
+Rel(biService, dremio, "Performs requests")
+Rel_U(biService, olap, "Performs requests")
+
+System_Boundary(medicalSystem, "Medical System") {
+    Container(medicalService, "Medical Service", "Power Builder", "", $tags="microService")
+    ContainerDb(medicalServiceDb, "Medical Service Database", "MS SQL 2008", "", $tags="storage")
+}
+Rel(medicalService, medicalServiceDb, "Stores data in")
+Rel(medicalService, camel, "Medical data (anonymized, for AI training)")
+
+System(financialServices, "Financial Services")
+Rel(financialServices, camel, "Sends financial data")
+Rel(camel, financialServices, "Sends financial data")
+
+System(internalServices, "Internal Services")
+Rel(camel, internalServices, "Internal financial data, medical centers management, etc.")
+
+System(aiServices, "AI Services")
+Rel(camel, aiServices, "Medical data")
+Rel(aiServices, camel, "Medical data")
+Rel(dremio, aiServices, "Learning data")
+
+System(pharmaceuticalCompany, "Pharmaceutical company 1...N System")
+Rel(pharmaceuticalCompany, camel, "Experiments data, financial data")
+
+System(manufacturer, "Medical Device Electronics Manufacturer System")
+Rel(manufacturer, camel, "Production volumes, financial data")
+
+@enduml
