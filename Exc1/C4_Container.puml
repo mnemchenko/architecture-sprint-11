@@ -6,7 +6,7 @@ AddElementTag("storage", $shape=RoundedBoxShape(), $bgColor="lightSkyBlue", $fon
 
 title Container Diagram for Future 2.0 Data Workflow
 
-System_Ext(s3, "S3")
+System_Ext(s3, "MinIO")
 
 System_Boundary(integrationBus, "Integration Bus") {
     Container(camel, "Integration Bus", "Apache Camel")
