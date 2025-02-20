@@ -8,8 +8,8 @@ title Container Diagram for Future 2.0 Data Workflow
 
 System_Ext(s3, "MinIO")
 
-System_Boundary(integrationBus, "Integration Bus") {
-    Container(camel, "Integration Bus", "Apache Camel")
+System_Boundary(integrationBus, "Message Bus") {
+    Container(kafka, "Message Bus", "Apache Kafka")
 }
 
 System_Boundary(iam, "IAM") {
@@ -29,7 +29,7 @@ System_Boundary(dataLakehouse, "Data Lakehouse") {
 Rel(dremio, nessie, "Performs requests")
 Rel(nessie, s3, "Performs requests")
 Rel(dremio, s3, "Performs requests")
-Rel(camel, dremio, "Loads data")
+Rel(kafka, dremio, "Loads data")
 Rel(etl, dremio, "Earns data")
 Rel_U(etl, olap, "Loads data")
 
@@ -49,24 +49,24 @@ System_Boundary(medicalSystem, "Medical System") {
     ContainerDb(medicalServiceDb, "Medical Service Database", "MS SQL 2008", "", $tags="storage")
 }
 Rel(medicalService, medicalServiceDb, "Stores data in")
-Rel(medicalService, camel, "Medical data (anonymized, for AI training)")
+Rel(medicalService, kafka, "Medical data (anonymized, for AI training)")
 
 System(financialServices, "Financial Services")
-Rel(financialServices, camel, "Sends financial data")
-Rel(camel, financialServices, "Sends financial data")
+Rel(financialServices, kafka, "Sends financial data")
+Rel(kafka, financialServices, "Sends financial data")
 
 System(internalServices, "Internal Services")
-Rel(camel, internalServices, "Internal financial data, medical centers management, etc.")
+Rel(kafka, internalServices, "Internal financial data, medical centers management, etc.")
 
 System(aiServices, "AI Services")
-Rel(camel, aiServices, "Medical data")
-Rel(aiServices, camel, "Medical data")
+Rel(kafka, aiServices, "Medical data")
+Rel(aiServices, kafka, "Medical data")
 Rel(dremio, aiServices, "Learning data")
 
 System(pharmaceuticalCompany, "Pharmaceutical company 1...N System")
-Rel(pharmaceuticalCompany, camel, "Experiments data, financial data")
+Rel(pharmaceuticalCompany, kafka, "Experiments data, financial data")
 
 System(manufacturer, "Medical Device Electronics Manufacturer System")
-Rel(manufacturer, camel, "Production volumes, financial data")
+Rel(manufacturer, kafka, "Production volumes, financial data")
 
 @enduml
