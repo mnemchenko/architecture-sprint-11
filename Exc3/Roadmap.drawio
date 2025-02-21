@@ -1,0 +1,190 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="Page-1" id="KwWr0fMAzlvJZQnZMEun">
+    <mxGraphModel dx="1026" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-118" value="Roadmap" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="120" y="110" width="890" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-119" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-118">
+          <mxGeometry y="30" width="890" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-120" value="Q1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-119">
+          <mxGeometry width="223" height="77" as="geometry">
+            <mxRectangle width="223" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-121" value="Q2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-119">
+          <mxGeometry x="223" width="222" height="77" as="geometry">
+            <mxRectangle width="222" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-122" value="Q3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-119">
+          <mxGeometry x="445" width="223" height="77" as="geometry">
+            <mxRectangle width="223" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-123" value="Q4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-119">
+          <mxGeometry x="668" width="222" height="77" as="geometry">
+            <mxRectangle width="222" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-124" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-118">
+          <mxGeometry y="107" width="890" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-125" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-124">
+          <mxGeometry width="223" height="76" as="geometry">
+            <mxRectangle width="223" height="76" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-126" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-124">
+          <mxGeometry x="223" width="222" height="76" as="geometry">
+            <mxRectangle width="222" height="76" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-127" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-124">
+          <mxGeometry x="445" width="223" height="76" as="geometry">
+            <mxRectangle width="223" height="76" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-128" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-124">
+          <mxGeometry x="668" width="222" height="76" as="geometry">
+            <mxRectangle width="222" height="76" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-129" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-118">
+          <mxGeometry y="183" width="890" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-130" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-129">
+          <mxGeometry width="223" height="77" as="geometry">
+            <mxRectangle width="223" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-131" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-129">
+          <mxGeometry x="223" width="222" height="77" as="geometry">
+            <mxRectangle width="222" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-132" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-129">
+          <mxGeometry x="445" width="223" height="77" as="geometry">
+            <mxRectangle width="223" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-133" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-129">
+          <mxGeometry x="668" width="222" height="77" as="geometry">
+            <mxRectangle width="222" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-134" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-118">
+          <mxGeometry y="260" width="890" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-135" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-134">
+          <mxGeometry width="223" height="77" as="geometry">
+            <mxRectangle width="223" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-136" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-134">
+          <mxGeometry x="223" width="222" height="77" as="geometry">
+            <mxRectangle width="222" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-137" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-134">
+          <mxGeometry x="445" width="223" height="77" as="geometry">
+            <mxRectangle width="223" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-138" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-134">
+          <mxGeometry x="668" width="222" height="77" as="geometry">
+            <mxRectangle width="222" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-139" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-118">
+          <mxGeometry y="337" width="890" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-140" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-139">
+          <mxGeometry width="223" height="76" as="geometry">
+            <mxRectangle width="223" height="76" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-141" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-139">
+          <mxGeometry x="223" width="222" height="76" as="geometry">
+            <mxRectangle width="222" height="76" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-142" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-139">
+          <mxGeometry x="445" width="223" height="76" as="geometry">
+            <mxRectangle width="223" height="76" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-143" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-139">
+          <mxGeometry x="668" width="222" height="76" as="geometry">
+            <mxRectangle width="222" height="76" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-144" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-118">
+          <mxGeometry y="413" width="890" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-145" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-144">
+          <mxGeometry width="223" height="77" as="geometry">
+            <mxRectangle width="223" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-146" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-144">
+          <mxGeometry x="223" width="222" height="77" as="geometry">
+            <mxRectangle width="222" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-147" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-144">
+          <mxGeometry x="445" width="223" height="77" as="geometry">
+            <mxRectangle width="223" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-148" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="m-PEVpsJPltwY-xn-PRA-144">
+          <mxGeometry x="668" width="222" height="77" as="geometry">
+            <mxRectangle width="222" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-149" value="&lt;b&gt;Kafka как транспорт для Camel &lt;/b&gt;&lt;br&gt;Инфраструктурная команда" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="225" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-150" value="&lt;b&gt;&amp;nbsp;Разгрузка Camel и перенос сложной логики&lt;/b&gt;&lt;br&gt;Инфраструктурная команда" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-151" value="&lt;b&gt;Постепенный отказ от Camel в стратегически важных местах&lt;/b&gt;&lt;br&gt;Инфраструктурная команда" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="680" y="230" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-152" value="&lt;b&gt;Отделение OLTP и OLAP поставок Medical System&lt;/b&gt;&lt;br&gt;Команда Medical System" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="306" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-153" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Пояснение к проектам Roadmap&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="640" width="890" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-154" value="&lt;b&gt;Разворачивание Data Lakehouse&lt;/b&gt;&lt;br&gt;Команда Data Science" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="382" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-155" value="&lt;b&gt;Настройка BI на базе &lt;br&gt;Data Lakehouse&lt;/b&gt;&lt;br&gt;Команда Data Science" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="382" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-156" value="&lt;b&gt;Формирование обучающей программы для портала самообслуживания&lt;/b&gt;&lt;br&gt;Команда Data Science" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="382" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-157" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Пояснение к проектам Roadmap&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;b&gt;Kafka как транспорт для Camel&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Apache Camel уже интегрирован с текущими системами, поэтому полный отказ от него может быть рискованным и затратным. Использование Kafka в качестве транспорта для Camel позволит постепенно разгрузить существующую шину данных, повысить надежность передачи сообщений и упростить масштабируемость системы без резкого переписывания интеграций.&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;b&gt;Разгрузка Camel и перенос сложной логики&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Apache Camel хорошо справляется с маршрутизацией сообщений, но сложная бизнес-логика внутри него снижает гибкость и масштабируемость. Перенос логики в специализированные сервисы (например, Kafka Streams, Flink или микросервисы) позволит сделать систему более управляемой и независимой от единой интеграционной платформы.&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;b&gt;Постепенный отказ от Camel в стратегически важных местах&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Полностью отказаться от Camel сразу невозможно, но можно вывести его из критически нагруженных точек, где Kafka и микросервисы обеспечат лучшую производительность и отказоустойчивость. Это позволит сократить технический долг и упростить сопровождение системы в долгосрочной перспективе.&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;b&gt;Отделение OLTP и OLAP поставок Medical System&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;В существующей системе OLTP (операционные данные) и OLAP (аналитические данные) тесно связаны, что усложняет отчётность и замедляет доступ к данным. Разделение этих потоков обеспечит оперативную работу клиник без влияния на аналитические запросы, а также ускорит генерацию отчетов.&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;b&gt;Разворачивание Data Lakehouse&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Data Lakehouse (на основе Iceberg + Minio + Nessie) объединяет преимущества Data Lake и Data Warehouse, обеспечивая гибкое хранение данных с мощными возможностями аналитики. Это позволит обрабатывать большие объемы медицинских и финансовых данных без жесткой схемы DWH.&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;b&gt;Настройка BI на базе Data Lakehouse&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Перевод BI-системы на Data Lakehouse обеспечит более гибкое и масштабируемое решение для аналитики, избавив её от зависимости от устаревшего DWH. Это ускорит построение отчетов, улучшит доступность данных и снизит нагрузку на основную систему.&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;b&gt;Формирование обучающей программы для портала самообслуживания&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Внедрение нового BI-инструмента требует обучения пользователей, чтобы они могли самостоятельно получать и анализировать данные. Обучающая программа обеспечит быструю адаптацию сотрудников и снизит нагрузку на технические команды, которые раньше занимались генерацией отчетов вручную.&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;b&gt;Внедрение подхода DataMesh&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;DataMesh позволяет каждому домену владеть своими данными и предоставлять их в удобном формате для остальных подразделений. Это устранит узкие места в централизованной архитектуре, повысит автономность команд и ускорит доступ к данным для всех бизнес-единиц.&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;b&gt;Аудит безопасности&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Аудит позволит выявить уязвимости, связанные с доступом к данным, шифрованием и защищенностью инфраструктуры. Сейчас этому не уделяется должного внимания, не смотря на постоянную работу с PII и PMI&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;b&gt;Выполнение мер по результатам аудита безопасности&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;После проведения аудита необходимо реализовать все рекомендованные меры для защиты данных и обеспечения соответствия регуляторным требованиям. Это позволит минимизировать риски утечек, атак и несанкционированного доступа к критически важной информации.&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="640" width="890" height="790" as="geometry" />
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-158" value="&lt;b&gt;Аудит безопасности&lt;/b&gt;&lt;br&gt;Продуктовые команды" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="537" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-159" value="&lt;b&gt;Разворачивание IAM&lt;/b&gt;&lt;br&gt;Инфраструктурная команда" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="255" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-160" value="&lt;b&gt;Выполнение мер по результатам аудита безопасности&lt;/b&gt;&lt;br&gt;Продуктовые команды" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="460" y="537" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m-PEVpsJPltwY-xn-PRA-161" value="&lt;b&gt;Внедрение подхода DataMesh&lt;/b&gt;&lt;br&gt;Продуктовые команды + Data Science" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="120" y="429" width="445" height="41" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
